@@ -1,0 +1,50 @@
+module github.com/ericchiang/terraform-provider-k8s
+
+go 1.12
+
+require (
+	github.com/agext/levenshtein v1.2.2
+	github.com/apparentlymart/go-cidr v1.0.0
+	github.com/apparentlymart/go-textseg v1.0.0
+	github.com/armon/go-radix v1.0.0
+	github.com/aws/aws-sdk-go v1.19.18
+	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
+	github.com/bgentry/speakeasy v0.1.0
+	github.com/blang/semver v3.5.1+incompatible
+	github.com/go-ini/ini v1.32.0
+	github.com/golang/protobuf v1.3.0
+	github.com/hashicorp/errwrap v1.0.0
+	github.com/hashicorp/go-cleanhttp v0.5.0
+	github.com/hashicorp/go-getter v1.3.0
+	github.com/hashicorp/go-hclog v0.0.0-20181001195459-61d530d6c27f
+	github.com/hashicorp/go-multierror v1.0.0
+	github.com/hashicorp/go-plugin v1.0.1-0.20190610192547-a1bc61569a26
+	github.com/hashicorp/go-uuid v1.0.1
+	github.com/hashicorp/go-version v1.1.0
+	github.com/hashicorp/hcl v0.0.0-20171017181929-23c074d0eceb
+	github.com/hashicorp/hcl2 v0.0.0-20190515223218-4b22149b7cef
+	github.com/hashicorp/hil v0.0.0-20190212112733-ab17b08d6590
+	github.com/hashicorp/terraform v0.12.2
+	github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb
+	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+	github.com/mattn/go-isatty v0.0.5
+	github.com/mitchellh/cli v1.0.0
+	github.com/mitchellh/copystructure v1.0.0
+	github.com/mitchellh/go-homedir v1.0.0
+	github.com/mitchellh/go-testing-interface v1.0.0
+	github.com/mitchellh/go-wordwrap v1.0.0
+	github.com/mitchellh/hashstructure v1.0.0
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/mitchellh/reflectwalk v1.0.0
+	github.com/oklog/run v1.0.0
+	github.com/posener/complete v1.2.1
+	github.com/satori/go.uuid v1.2.0
+	github.com/ulikunitz/xz v0.5.5
+	github.com/zclconf/go-cty v0.0.0-20190516203816-4fecf87372ec
+	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
+	golang.org/x/net v0.0.0-20190502183928-7f726cade0ab
+	golang.org/x/sys v0.0.0-20190502175342-a43fa875dd82
+	golang.org/x/text v0.3.2
+	google.golang.org/genproto v0.0.0-20190201180003-4b09977fb922
+	google.golang.org/grpc v1.18.0
+)
